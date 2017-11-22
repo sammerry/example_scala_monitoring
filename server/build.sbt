@@ -22,6 +22,6 @@ libraryDependencies ++= {
 
     "io.dropwizard.metrics"   %  "metrics-jvm" % "3.2.2",
     "io.dropwizard.metrics"   %  "metrics-logback" % "3.2.2",
-    "org.coursera"            %  "metrics-datadog" % "1.1.10",
+    "org.coursera"            %  "metrics-datadog" % "1.1.13",
     "nl.grons"                %% "metrics-scala" % "3.5.9_a2.4")
 }
