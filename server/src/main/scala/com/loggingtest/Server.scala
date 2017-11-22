@@ -46,6 +46,11 @@ object Server extends App with Instrumented {
     }.runForeach { x =>
       finalCounter += 10
       println(x)
+
+
+    }.andThen { case _ =>
+      system.terminate()
+      materializer.shutdown()
     }
 
 }
